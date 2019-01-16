@@ -3,7 +3,7 @@ A simple single layer pytorch model to show how ```torch.nn.Linear``` solves gen
 
 ___
 ### Idea:
-The pytorch nn.Linear class can solve general Linear Equations of the kind:  $$\mathbf{y} = \mathbf{x}\mathbf{A^\top} + b$$ where:
+The pytorch nn.Linear class can solve general Linear Equations of the kind:  $\mathbf{y} = \mathbf{x}\mathbf{A^\top} + b$ where:
 * $\mathbf{A}$ is a transformation matrix which represent coefficients of the equation, 
 * $\mathbf{x}$ is a vector of inputs and 
 * $\mathbf{y}$ is a vector that is the result of the linear transformation
